@@ -12,6 +12,6 @@
     </nav>
 
     <h1>Contact Us</h1>
-    <p>Feel free to email us at sm25071@students.sacredheart.school.nz.</p>
+    <p>My Name is Seb Marlowe and I go to sacred heart college and play hockey and baseball,</p>
 </body>
 </html>

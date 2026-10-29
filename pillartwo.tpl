@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Home Page</title>
@@ -6,8 +6,8 @@
 </head>
 <body>
     <nav>
-        <a href="/home">Home</a>
-        <a href="/Pillarone">pillar one</a>
+        <a href="/">Home</a>
+        <a href="/pillarone">pillar one</a>
         <a href="/pillartwo">pillar two</a>
     </nav>
 
