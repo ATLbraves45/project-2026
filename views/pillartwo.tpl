@@ -17,11 +17,6 @@
     <h1>Living in the Way of Mary</h1>
     <p>Faith, community and education</p>
 </header>
-<img src="/static/images/sacred-heart-college.png"
-     alt="Sacred Heart College">
-
-<img src="/static/images/sacred-heart-crest.png"
-     alt="Sacred Heart College crest">
     <nav>
         <a href="/">Home</a>
         <a href="/pillarone">Pillar One</a>
@@ -34,7 +29,7 @@
    This value encourages friendships and creates a warm inclusive atmosphere in which students thrive.<br>
    This also give Sacredheart students intense loyalty to each other and embodies the teachings of marcellin<br>
    champagnt.
-   <section class="shc-image-gallery">
+   
     <h2>Life at Sacred Heart College</h2>
     <p>Discover our campus, school facilities and community.</p>
 

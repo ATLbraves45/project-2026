@@ -1,21 +1,156 @@
-  background-color: #174b85;
-    color: white;
-    padding: 20px;
-    margin-top: 40px;
-    border-top: 6px solid #e52235;
+  :root {
+    --primary-blue: #101b3d;
+    --secondary-blue: #1b2d59;
+    --primary-red: #e63946;
+    --light-red: #ff5964;
+    --background: #f3f5fa;
+    --white: #ffffff;
+    --text-dark: #20283a;
 }
 
-/* Mobile screens */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 27px;
+/* Global styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text-dark);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-blue);
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid var(--primary-red);
+}
+
+/* Navigation */
+nav {
+    background: var(--secondary-blue);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--light-red);
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sections and cards */
+section, .card {
+    background: var(--white);
+    padding: 30px;
+    margin: 25px auto;
+    border-radius: 14px;
+    max-width: 900px;
+    box-shadow: 0 5px 20px rgba(16, 27, 61, 0.08);
+    text-align: center;
+}
+
+/* Buttons */
+button, .button {
+    background: var(--primary-red);
+    color: var(--white);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background: var(--primary-blue);
+    transform: translateY(-2px);
+}
+
+/* Links */
+a {
+    transition: color 0.3s ease;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Forms */
+input, textarea, select {
+    padding: 12px;
+    border: 1px solid #d5dbea;
+    border-radius: 8px;
+    font-family: inherit;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 25px;
+    text-align: center;
+    border-top: 5px solid var(--primary-red);
+}
+
+footer p {
+    color: var(--white);
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 768px) {
+    main {
+        margin: 15px auto;
+        padding: 12px;
+    }
+
+    section, .card {
+        padding: 20px;
+        margin: 15px auto;
     }
 
     nav a {
-        padding: 10px;
-    }
-
-    .school-photo {
-        max-height: 230px;
+        display: inline-block;
+        margin: 8px;
     }
 }

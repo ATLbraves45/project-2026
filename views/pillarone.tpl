@@ -18,11 +18,7 @@
     <h1>Living in the Way of Mary</h1>
     <p>Faith, community and education</p>
 </header>
-<img src="/static/images/sacred-heart-college.png"
-     alt="Sacred Heart College">
 
-<img src="/static/images/sacred-heart-crest.png"
-     alt="Sacred Heart College crest">
     <nav>
         <a href="/">Home</a>
         <a href="/pillarone">Pillar One</a>
