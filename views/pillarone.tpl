@@ -6,13 +6,23 @@
 </head>
 
  <body>
-    <header>
+   <header>
+    <img class="school-photo"
+         src="/static/images/sacred-heart-college.png"
+         alt="Sacred Heart College campus">
 
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Auckland_Sacred_Heart_College.JPG" alt="Sacred Heart College buildings">
-        <h1>Living in the way of Mary</h1>
-        <p></p>
-    </header>
+    <img class="school-crest"
+         src="/static/images/sacred-heart-crest.png"
+         alt="Sacred Heart College crest">
 
+    <h1>Living in the Way of Mary</h1>
+    <p>Faith, community and education</p>
+</header>
+<img src="/static/images/sacred-heart-college.png"
+     alt="Sacred Heart College">
+
+<img src="/static/images/sacred-heart-crest.png"
+     alt="Sacred Heart College crest">
     <nav>
         <a href="/">Home</a>
         <a href="/pillarone">Pillar One</a>
@@ -20,6 +30,13 @@
     </nav>
 
     <main>
+    <section class="shc-image-gallery">
+    <h2>Life at Sacred Heart College</h2>
+    <p>Discover our campus, school facilities and community.</p>
+
+ 
+    </div>
+</section>
     </main>
 
     <footer>
